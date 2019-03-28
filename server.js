@@ -6,7 +6,7 @@ var cheerio = require("cheerio");
 
 
 var db = require("./models");
-var PORT = 3000;
+var PORT = 4000;
 
 var app = express();
 
@@ -20,7 +20,7 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb://localhost/scrapemongo", { useNewUrlParser: true });
+mongoose.connect("mongodb://heroku_nfp7rl4g:LmsCk4FRvCfdEq3@ds147274.mlab.com:47274/heroku_nfp7rl4g", { useNewUrlParser: true });
 
 
 
